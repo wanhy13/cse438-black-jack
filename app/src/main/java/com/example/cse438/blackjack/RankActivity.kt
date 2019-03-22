@@ -72,7 +72,7 @@ class RankActivity : AppCompatActivity() {
                     if(num==usersData.size()-1){
                         var count=1
 
-                        for((k,v) in uwithp.toSortedMap()){
+                        for((k,v) in uwithp.toSortedMap(reverseOrder())){
 
                             Log.e("Error", "Layout working ?" )
                             foodCalorieList.add("No."+count +"  "+v)
