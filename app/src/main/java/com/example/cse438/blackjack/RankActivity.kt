@@ -30,6 +30,9 @@ class RankActivity : AppCompatActivity() {
             //Log.e("playbutton","work")
             val intent = Intent(this,MainActivity::class.java)
 
+            val intent2 = Intent(this, MusicService::class.java)
+            stopService(intent2)
+
             startActivity(intent)
         }
 
