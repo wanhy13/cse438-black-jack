@@ -5,7 +5,7 @@ Notice:
 1. Because our creative portion has the bet function, so the player must hit the bet button first so the bet would be fixed. Then the player would be able to use gestures to choose hit or stand.
 2. For this rubric: A new round is automatically started after each round
 We use snackbar to notify the player if they lose or win. So the player has to choose to close to snackbar before the new round will automatically start.
-3. If player doesnâ€™t play any round, the player will not show up in the leader board
+3. If player doesn’t play any round, the player will not show up in the leader board
 
 Creative portion:
 1. Bet Function
@@ -16,3 +16,4 @@ If the player runs out of money in the current round, the player will get 5000$ 
 During the running procedure of the app, the player would hear the background music(including the create account page and sign in page). Once the player is login in, they could choose to click the Pause Music button to pause the music, then they could choose to click the Start Music button to restart the music.
 When the player changes from one activity to another, the background music would not be interrupted, which is implemented by Service, and we make sure the music would not be interrupted by using Service.START_STICKY.
 
+110/110
